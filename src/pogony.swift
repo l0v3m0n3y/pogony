@@ -26,6 +26,7 @@ public class Pogony{
     
     public init() {
         self.headers = [
+        "Acept":"*/*",
         "Connection":"keep-alive",
         "Accept-Encoding":"deflate, zstd",
         "Accept-Language":"en-US,en;q=0.9",
