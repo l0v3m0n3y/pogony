@@ -20,6 +20,7 @@ extension URLSession {
     }
 }
 
+@MainActor
 public class Pogony{
     private let api = "https://pogony.org/api"
     private var headers: [String: String]
